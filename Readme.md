@@ -20,7 +20,7 @@ I did not received this error when I used a 1GB memory card while developing on 
 Firstly; The problem is fixed by re-formatting the SD card, but if the physical device is mounted somewhere, detach of the card and performing this process is a difficult job..
 <br>Second; we guessed it might be to support device power with a strong capacitor to reduce latency - maybe - I haven't had a chance to try..
 <br>Finally (more applicable) in case of errors, forcing the unmount with the esp_vfs_fat_sdmmc_unmount() command and restarting the device software was the solution, and the device has been working this way for months.
-<br>I leave the sample codes for this application in the "mountfix.ino" file for this.
+<br>I putting the sample codes for this application in the "mountfix.ino" file for this.
 
 ### Please Note: These solution-s were made by many tries and error and are for advice only.
 
