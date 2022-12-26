@@ -1,6 +1,7 @@
 #include "esp_vfs_fat.h" 
 
 void setup() {
+    sd_card_mount();
 }
 
 void loop() {
